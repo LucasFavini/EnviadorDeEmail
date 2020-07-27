@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MailRapidos</title>
+    <link rel="stylesheet" href="css/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-4.5.0-dist/css/style.css">   
+</head>
+<body>
+  
+    <div class="container mt-4">
+        <header><h5>Enviar un email Rapido!</h5></header>        
+        <div class="form-group" style="padding: 2%;">
+            <label for="destinatario">Destinatario:</label>
+            <input type="email" id="email" class="form-control" placeholder="example@gmail.com">
+            <br>
+
+            <label for="asunto">Asunto:</label>
+            <input type="text" id="asunto" class="form-control">
+            <br>
+            <label for="mensaje">Mensaje:</label>
+            <textarea class="form-control" id="mensaje" rows="3"></textarea>
+        </div>
+
+        <div class="spinner-grow text-light" role="status" id="spinner"></div>
+        <img src="https://mljxw7dcmdzo.i.optimole.com/w:300/h:193/q:auto/https://bafang.cl/wp-content/uploads/2019/06/mensaje-enviado1.png"
+        id="msjEnviado">
+
+        <div class="botones mt-4">
+            <button type="button" id="botonE" class="btn btn-outline-primary"> Enviar ✉️</button>
+            <button type="button" id="botonB" class="btn btn-outline-danger"> Limpiar 🗑️</button>
+        </div>
+        
+        
+     
+    </div>
+
+<script src="js/app.js"></script>
+</body>
+
+</html>
