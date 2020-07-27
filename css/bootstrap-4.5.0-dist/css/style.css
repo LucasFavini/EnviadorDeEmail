@@ -10,7 +10,7 @@ body{
     
     padding: 0% 0% 2%; 
     width: 50%;    
-    border-radius: 2px;
+    border-radius: 15px;
     -webkit-box-shadow: 4px 5px 65px 13px rgba(0,0,0,0.75);
     -moz-box-shadow: 4px 5px 65px 13px rgba(0,0,0,0.75);
     box-shadow: 4px 5px 65px 13px rgba(0,0,0,0.75);
@@ -24,16 +24,14 @@ body{
     color: whitesmoke;
     text-align: center;
     font-family: "roboto";
-    font-weight: bold;
-    
+    font-weight: bold;    
 }
 
 label
 {
     font-family: "poppins";
     color: white;  
-    text-decoration: underline; 
-    text-shadow: 1px 1px 12px white;
+
 }
 
 .form-control
@@ -56,6 +54,7 @@ img
 }
 header
 {
+    border-radius: 15px;
     background-color: #16E7EE;
     opacity: 0.3;
     font-family: "rowdies";
