@@ -112,8 +112,6 @@ Generic();
         setTimeout(()=>{                   
             botonE.disabled=true;  
             botonB.disabled=false;         
-            }, 3000);
-      
-            
+            }, 3000);                  
     }
    
