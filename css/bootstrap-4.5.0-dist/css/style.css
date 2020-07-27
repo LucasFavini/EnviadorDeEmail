@@ -7,10 +7,13 @@ body{
 }
 .container
 {
-    border: 2px solid #f8f9fa; 
+    
     padding: 0% 0% 2%; 
     width: 50%;    
     border-radius: 2px;
+    -webkit-box-shadow: 4px 5px 65px 13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 5px 65px 13px rgba(0,0,0,0.75);
+    box-shadow: 4px 5px 65px 13px rgba(0,0,0,0.75);
 }
 #testeo{
     background-color:lightskyblue;
