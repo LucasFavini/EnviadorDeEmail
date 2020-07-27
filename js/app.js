@@ -116,3 +116,4 @@ Generic();
       
             
     }
+    console.log(email.style)
