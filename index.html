@@ -12,15 +12,17 @@
     <div class="container mt-4">
         <header><h5>Enviar un email Rapido!</h5></header>        
         <div class="form-group" style="padding: 2%;">
-            <label for="destinatario">Destinatario:</label>
-            <input type="email" id="email" class="form-control" placeholder="example@gmail.com">
-            <br>
+            <form action="#">
+                <label for="destinatario">Destinatario:</label>           
+                <input type="email" id="email" class="form-control" placeholder="example@gmail.com">
+                <br>
 
-            <label for="asunto">Asunto:</label>
-            <input type="text" id="asunto" class="form-control">
-            <br>
-            <label for="mensaje">Mensaje:</label>
-            <textarea class="form-control" id="mensaje" rows="3"></textarea>
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" class="form-control">
+                <br>
+                <label for="mensaje">Mensaje:</label>
+                <textarea class="form-control" id="mensaje" rows="3"></textarea>
+            </form>
         </div>
 
         <div class="spinner-grow text-light" role="status" id="spinner"></div>
